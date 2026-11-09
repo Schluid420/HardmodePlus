@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:leaf_litter",
+    "minecraft:leaf_litter",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "hardmodeplus:bandage"
+  }
+}

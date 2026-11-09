@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "minecraft:stick",
+    "minecraft:string"
+  ],
+  "result": {
+    "id": "hardmodeplus:splint"
+  }
+}

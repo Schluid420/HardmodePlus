@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "hardmodeplus",
+	"version": "${version}",
+	"name": "HardmodePlus",
+	"description": "Set the attributes of every mob, from zombies to cows, and add an extra multiplier to Hard difficulty. Optional survival features: thirst, stamina, bleeding and broken bones, tiredness, cold, mob variants, burning torches and more. Five ready-made presets. Free on CurseForge and GitHub.",
+	"icon": "assets/hardmodeplus/icon.png",
+	"authors": [
+		"Schluid"
+	],
+	"license": "All-Rights-Reserved",
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/hardmodeplus",
+		"sources": "https://github.com/Schluid420/HardmodePlus",
+		"issues": "https://github.com/Schluid420/HardmodePlus/issues"
+	},
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.schluid.hardmodeplus.HardmodePlus"
+		],
+		"client": [
+			"io.github.schluid.hardmodeplus.client.HardmodePlusClient"
+		],
+		"modmenu": [
+			"io.github.schluid.hardmodeplus.client.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"hardmodeplus.mixins.json",
+		{
+			"config": "hardmodeplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

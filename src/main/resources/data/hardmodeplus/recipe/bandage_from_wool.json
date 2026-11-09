@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:wool",
+    "#minecraft:wool"
+  ],
+  "result": {
+    "id": "hardmodeplus:bandage"
+  }
+}

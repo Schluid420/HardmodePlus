@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "hardmodeplus:bandage",
+    "#minecraft:small_flowers"
+  ],
+  "result": {
+    "id": "hardmodeplus:herbal_bandage"
+  }
+}

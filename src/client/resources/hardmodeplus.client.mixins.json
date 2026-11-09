@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "io.github.schluid.hardmodeplus.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AbstractClientPlayerMixin",
+		"CameraAccessor",
+		"LivingEntityMixin",
+		"LivingEntityRendererMixin",
+		"LocalPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
